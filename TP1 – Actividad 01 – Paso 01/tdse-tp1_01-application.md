@@ -1,4 +1,4 @@
-#Paso 6
+# Paso 6
 
 Este es un proyecto clásico de sistemas embebidos utilizando un microcontrolador STM32 (específicamente la línea STM32F103) junto con el sistema operativo en tiempo real FreeRTOS y las librerías HAL (Hardware Abstraction Layer) de ST.
 
@@ -67,7 +67,7 @@ Para solucionar esto de manera segura:
 3.  Esta interrupción llama a `HAL_TIM_PeriodElapsedCallback()`, que podemos ver en `main.c`.
 4.  Dentro de ese callback, el código verifica si el Timer es el TIM4 e invoca **`HAL_IncTick()`**. Esto incrementa la variable interna `uwTick` de la HAL, permitiendo que todas las funciones de ST funcionen independientemente de si FreeRTOS está ejecutándose o no.
 
-#Paso 8
+# Paso 8
 
 Este conjunto de archivos implementa una aplicación embebida basada en **FreeRTOS** (usualmente sobre un microcontrolador STM32, a juzgar por el uso de la HAL de ST). La arquitectura del software utiliza **Máquinas de Estados Finitos (FSM - Statecharts)** ejecutándose dentro de tareas (threads) del sistema operativo en tiempo real. 
 
