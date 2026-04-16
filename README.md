@@ -1,6 +1,6 @@
 # FIUBA - Electrónica - Sistemas Operativos Embebidos
 ## Trabajo Práctico N°: 1 - Tareas de FreeRTOS
-### 2026-1erC - 1-X
+### 2026-1erC - 1-4
 ### Responsable de la entrega:
 | Padrón | Apellidos, Nombres | Fecha | Deadline |
 | :----- | :--------------------- | :------: | :-------: |
